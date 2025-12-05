@@ -13,6 +13,7 @@ module.exports = (req, res) => {
     account: 'Volodymyr-Bauzi',
     repository: 'cashflow',
     token: process.env.GITHUB_TOKEN,
-    url: baseUrl
+    url: baseUrl,
+    cache: false
   })(req, res);
 };
